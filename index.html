@@ -11,15 +11,15 @@
   Welcome!
     <a href="https://linda-9.github.io/twine/twin_file/proj.html"> Have a wonderful break</a>
     <img src="https://linda-9.github.io/twine/image/leaf.jpg" width="50%">
-
+  <audio src="https://linda-9.github.io/twine/image/Blue.mp3"></audio>
 
   </body>  
   
  <script>
- var audio = document.createElement('audio');
- audio.src = 'https://linda-9.github.io/twine/image/Blue.mp3';
- audio.loop = true;
- audio.play();
- audio.whatever.play(); 
+ window.addEventListener("DOMContentLoaded", event => {
+  const audio = document.querySelector("audio");
+  audio.volume = 0.2;
+  audio.play();
+});
 </script>
 </html>
